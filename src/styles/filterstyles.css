@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+.left-filter{
+  width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 20px;
+    border: 1px solid #E2E1DE;
+    height:auto;
+    padding-bottom: 10px;
+    
+}
+ .inner {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 254px;
+    text-align: start;
+}
+.inner select{
+    width: 254px;
+    height: 40px;
+    gap: 20px;
+  
+}
+.inner button{
+    border: #FFF7E6;
+    background-color: #FFB000;
+    color: white;
+    width: 120px;
+    height: 36px;
+    font-family: 'Outfit', sans-serif;
+    align-self: center;
+}
+
+.inner button span{
+    color: white;
+}
+.display-component{
+    width: 820px;
+    margin-left: 310px;
+}
+.filterhead{
+    width: 268px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    line-height: 50.68px;
+    background-color: #FFF7E6;
+    font-size: 18px;
+    text-align: center;
+    height: 60px;
+}
+.left-filter span{
+    color:  #FFB000;
+    text-align: start;
+   line-height: 22.3px;
+   size: 18px;
+   font-weight: 400;
+   font-family:'Lexend', sans-serif;
+}
+:root {
+    --foundation-primary-p-300: #FFB000;
+  }
+  
+  .navbar {
+    background-color:#EDECEB;
+    padding: 10px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: rgb(9, 9, 9);
+    padding-bottom: 5px;
+    transition: border-bottom 0.1s ease;
+  }
+  
+  .nav-link:hover {
+    border-bottom: 2px solid var(--unded-primary-p-300);
+  }
+  
+  .nav-item.selected .nav-link {
+    border-bottom: 2px solid var(--foundation-primary-p-300);
+  }
+.card-6{
+  display: flex;
+  width: 400px;
+  height: 140px;
+  font-size: 10px;
+  gap: 10px;
+  font-weight: 400;
+  background-color: #F7F7F7;
+  padding-top: 10px;
+}
+.card-6 .inner-1 p{
+margin-top:-10px;
+}
+ .flow{
+  height: 10px;
+ text-overflow: clip;
+}
+
+.card-6 img{
+  width: 120px;
+  height: 120px;
+}
+.card-6 h3{
+  font-size: 16px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+}
+.card-6 span{
+  font-size: 13px;
+  align-items: center;
+}
+.card-6 button{
+  width: 80px;
+  height: 27px;
+}
+.card-6 text{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  color: #FFB000;
+  text-decoration: underline;
+}
+.row{
+  gap: 10px;
+  row-gap:-20px;
+}
+.card-6 button:nth-child(1){
+  background-color: #FFB000;
+  color: white;
+  border: none;
+}
+.card-6 button:nth-child(2){
+  background-color: #E2E1DE;
+  color: black;
+  border: none;
+}
